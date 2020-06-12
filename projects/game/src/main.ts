@@ -1,3 +1,3 @@
-import { makeHello } from "shared/module";
+export {};
 
-print(makeHello("game"));
+print("game");

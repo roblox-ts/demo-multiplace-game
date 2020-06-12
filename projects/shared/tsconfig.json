@@ -5,21 +5,20 @@
 		"downlevelIteration": true,
 		"noLib": true,
 		"strict": true,
-		"target": "ES6",
+		"target": "ESNext",
 		"moduleResolution": "Node",
 		"typeRoots": ["../../node_modules/@rbxts"],
 		"resolveJsonModule": true,
+		"incremental": true,
 
 		// required, configurable
-		"rootDirs": ["src"],
+		"rootDir": "src",
 		"outDir": "out",
-
-		// optional
-		"baseUrl": "src",
-		"declaration": false,
 
 		// optional, non-configurable
 		"jsx": "react",
-		"jsxFactory": "Roact.createElement"
+		"jsxFactory": "Roact.createElement",
+
+		"baseUrl": "src"
 	}
 }
