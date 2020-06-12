@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		// required
+		"allowSyntheticDefaultImports": true,
+		"downlevelIteration": true,
+		"noLib": true,
+		"strict": true,
+		"target": "ES6",
+		"moduleResolution": "Node",
+		"typeRoots": ["../../node_modules/@rbxts"],
+		"resolveJsonModule": true,
+
+		// required, configurable
+		"rootDirs": ["src"],
+		"outDir": "out",
+
+		// optional
+		"baseUrl": "src",
+		"declaration": false,
+
+		// optional, non-configurable
+		"jsx": "react",
+		"jsxFactory": "Roact.createElement"
+	}
+}

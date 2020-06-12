@@ -1,0 +1,15 @@
+{
+	"name": "rbxts",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"build": "rbxtsc-dev -p ./projects/game -i ./include",
+		"eslint": "npx eslint \"src/**/*.ts\" --max-warnings 0"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@rbxts/types": "^1.0.366"
+	}
+}

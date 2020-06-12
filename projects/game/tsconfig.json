@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		// required
+		"allowSyntheticDefaultImports": true,
+		"downlevelIteration": true,
+		"noLib": true,
+		"strict": true,
+		"target": "ESNext",
+		"moduleResolution": "Node",
+		"typeRoots": ["../../node_modules/@rbxts"],
+		"resolveJsonModule": true,
+		"incremental": true,
+
+		// required, configurable
+		"rootDirs": ["src"],
+		"outDir": "out",
+
+		// optional, non-configurable
+		"jsx": "react",
+		"jsxFactory": "Roact.createElement",
+
+		"baseUrl": "src",
+		"paths": {
+			"shared/*": ["../../shared/src/*"]
+		}
+	}
+}
