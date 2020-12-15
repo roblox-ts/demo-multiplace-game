@@ -10,6 +10,7 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"@rbxts/types": "^1.0.366"
+		"@rbxts/compiler-types": "^1.0.0-beta.10.0",
+		"@rbxts/types": "^1.0.428"
 	}
 }
