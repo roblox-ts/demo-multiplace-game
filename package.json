@@ -3,14 +3,15 @@
 	"version": "1.0.0",
 	"description": "",
 	"scripts": {
-		"build": "rbxtsc-dev -p ./projects/game -i ./include",
+		"build": "rbxtsc -p ./projects/game -i ./include",
 		"eslint": "npx eslint \"src/**/*.ts\" --max-warnings 0"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
-	"dependencies": {
-		"@rbxts/compiler-types": "^1.0.0-beta.10.0",
-		"@rbxts/types": "^1.0.428"
+	"devDependencies": {
+		"@rbxts/compiler-types": "^2.3.0-types.1",
+		"@rbxts/types": "*",
+		"roblox-ts": "^2.3.0"
 	}
 }
